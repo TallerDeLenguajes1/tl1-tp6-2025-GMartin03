@@ -14,6 +14,7 @@ while (seguir)
 
     Console.Write("Ingrese el primer número: ");
     bool numero1 = int.TryParse(Console.ReadLine(), out num1);
+    Console.Write("Ingrese el segundo número: ");
     bool numero2 = int.TryParse(Console.ReadLine(), out num2);
     if (!numero1 || !numero2)
     {
